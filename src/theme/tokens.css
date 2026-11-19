@@ -1,0 +1,51 @@
+:root {
+  /* Colors */
+  --bg-base: #070B14;
+  --bg-surface: #0B1220;
+  --accent-cyan: #22D3EE;
+  --accent-blue: #3B82F6;
+  --accent-violet: #8B5CF6;
+  --text-primary: #E6EDF7;
+  --text-secondary: #8EA0B8;
+  --text-muted: #5B6B82;
+  --success: #34D399;
+  --warning: #FBBF24;
+  --error: #FB7185;
+
+  /* Quantity colors */
+  --q-force: #FF6B6B;
+  --q-velocity: #22D3EE;
+  --q-acceleration: #F472B6;
+  --q-electric: #FBBF24;
+  --q-magnetic: #A78BFA;
+  --q-torque: #34D399;
+  --q-momentum: #FB923C;
+  --q-energy: #A3E635;
+
+  /* Level chips */
+  --lvl-g12: #5EEAD4;
+  --lvl-y1: #60A5FA;
+  --lvl-y2: #818CF8;
+  --lvl-y3: #C084FC;
+  --lvl-y4: #F0ABFC;
+
+  /* Glass */
+  --glass-light-blur: 20px;
+  --glass-dense-blur: 28px;
+  --radius-panel: 20px;
+  --radius-pill: 999px;
+  --shadow-glass: 0 20px 60px rgba(0,0,0,0.45);
+
+  /* Fonts */
+  --font-ui: 'Inter', system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+  --font-serif: 'Instrument Serif', Georgia, serif;
+}
+
+/* Load fonts (Fontsource) */
+@import '@fontsource/inter/400.css';
+@import '@fontsource/inter/500.css';
+@import '@fontsource/inter/600.css';
+@import '@fontsource/jetbrains-mono/400.css';
+@import '@fontsource/jetbrains-mono/500.css';
+@import '@fontsource/instrument-serif/400-italic.css';
